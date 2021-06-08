@@ -1,0 +1,269 @@
+@charset "utf-8";
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin:120px 0 0 0;
+   padding: 0;
+   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   background-color: #f3f3f3;
+}
+
+header {
+   padding: 30px 4% 10px;
+   top: 0;
+   width: 100%;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+   position: fixed;
+   border-bottom: solid 2px #ececec;
+   z-index: 99;
+}
+
+h1 {
+   margin: 0; padding: 0;
+   font-size: 23px;
+   color:rgb(83, 83, 83);
+}
+
+.pc-nav a {	
+   text-decoration: none;
+   color: #474747;
+}
+
+nav {
+   margin: 0 0 0 auto;
+}
+
+.pc-nav ul {
+   list-style: none;
+   margin: 0;
+   display: flex;
+}
+
+.pc-nav li {
+   margin: 0 0 0 20px;
+   font-size: 15px;
+}
+
+
+    nav ul li.current a{
+    color: #00b85c;
+    }
+
+
+    nav ul li a:hover{
+    color: #00b85c;
+    background-color: #dfdfdf;
+    }
+
+    nav ul li:hover{
+    border-top: 5px solid #b9b9b9;
+    }
+
+main{
+   background-color:#fcfcfc;
+   width: 80%;
+   margin: 70px auto;
+   max-width: 900px;
+   padding:10px 50px ;
+}
+
+    .main-title{
+    font-size:22px;
+    color:#5f5f5f;
+    font-weight: bold;
+    text-align: center;
+    }
+
+    .sub-main{
+       font-size:17px;
+       margin:0 40px;
+    }
+
+    img{
+       width:85%;
+       text-align: center;
+       margin:10px 0 20px 0;
+    }
+    
+    .time{
+       text-align:center;
+       font-weight:normal;
+       font-size:13px;
+    }
+
+    .t1{
+       line-height:18px;
+    }
+
+    .t2{
+       line-height:120px;
+    }
+
+    .t3 br{
+       line-height: 20px;
+    }
+
+   .list-main{
+      width:70%;
+      display: table;
+      margin:30px 0;
+   }
+
+   .list-main a{
+      text-decoration: none;
+      color:#333333;
+   }
+
+   .list-main a:hover{
+      color:#7cc1f0;
+   }
+
+   .list-main ul {
+      border: double 4px #7cc1f0;
+      padding: 0.5em 1em 0.5em 2.3em;
+      position: relative;
+    }
+   .list-main ul li {
+      line-height: 1.5;
+      padding: 0.5em 0;
+      list-style-type: none!important;/*ポチ消す*/
+    }
+   .list-main ul li:before {
+      font-family: "Font Awesome 5 Free";
+      content: "\f0a4";
+      position:absolute;
+      left : 1em; /*左端からのアイコンまで*/
+      color: #7cc1f0; /*アイコン色*/
+    }
+
+
+    h3 {
+      padding: 0.25em 0.5em;/*上下 左右の余白*/
+      color: #494949;/*文字色*/
+      background: transparent;/*背景透明に*/
+      border-left: solid 5px #7db4e6;/*左線*/
+      scroll-margin-top: 100px;/* ページ内リンク被らないように */
+      margin:80px 0 25px 0;
+    }
+
+    .t5{
+       line-height: 36px;
+    }
+    
+   .c1{
+      font-weight: bold;
+   }
+
+   h4 {
+      position: relative;
+      padding: 0.25em 0;
+      margin:80px 0 30px 0;
+      font-size: 20px;
+      color: #4b4b4b;
+    }
+
+    h4:after {
+      content: "";
+      display: block;
+      height: 4px;
+      background: -webkit-linear-gradient(to right, rgb(90, 162, 230), transparent);
+      background: linear-gradient(to right, rgb(90, 162, 230), transparent);
+    }
+
+    .t6{
+       line-height:30px;
+    }
+
+    .c2{
+       font-weight:bold;
+       line-height:30px;
+    }
+
+    .b1{
+       margin:30px 0 20px 0;
+    }
+
+    .t7{
+       margin:10px 0 80px 0;
+    }
+
+    .t8{
+       margin:40px 0 10px 0;
+       line-height:35px;
+    }
+
+    .c4{
+       font-weight:bold;
+    }
+
+    .under{
+       border-bottom:solid 2px #818181 ;
+    }
+
+    .t9{
+       margin:40px 0 0 0;
+       line-height:80px; 
+    }
+
+    .c5{
+       line-height: 33px;
+    }
+
+    .g2{
+      margin:40px 0 0 0;
+   }
+
+   .g3{
+      margin:40px 0 0 0;
+   }
+
+   .g4{
+      margin:40px 0 0 0;
+   }
+
+   .c7{
+      line-height: 38px;
+      margin:-30px 0 0 0;
+   }
+
+   .k1{
+      margin:20px 0 60px 0;
+   }
+
+   .k2{
+      margin:0 0 60px 0;
+   }
+
+   .k3{
+      margin:20px 0;
+   }
+
+   h5{
+      font-size: 20px;
+      margin:53px 0 0 0;
+   }
+
+   footer{
+      padding: 30px 4% 10px;
+      bottom: 0;
+      width: 100%;
+      background-color: rgb(70, 70, 70);
+      display: flex;
+      align-items: center;
+      z-index: 99;
+      height:120px;
+   }
+
+   .m1{
+      line-height: 28px;
+      margin:80px 0;
+
+   }
+
+    /* 順番
+     　気を付けること*/
+
